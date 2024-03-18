@@ -62,7 +62,7 @@ write(store);
 
 void main(){
     if(!store.contains_text("Recent Store Activity (past 2 weeks)")){
-        write(visit_url());
+        write(store);
     } else {
         parse_sales_activity();
     }
